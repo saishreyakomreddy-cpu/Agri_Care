@@ -1,0 +1,20 @@
+# Python environments and bytecode
+venv/
+.venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+
+# Local application data and credentials
+database/*.db
+database/*.db-*
+.streamlit/secrets.toml
+.env
+.env.*
+
+# Runtime output and editor files
+*.log
+.DS_Store
+.vscode/
+.idea/
